@@ -6,7 +6,7 @@ export const TransactionSchema = z.object({
   category: z.string(),
   date: z.string(),
   amount: z.number(),
-  status: z.enum(["success", "failed", "canceled", "processing"]),
+  status: z.enum(["success", "pending", "failed", "canceled", "processing"]),
 });
 
 export type Transaction = z.infer<typeof TransactionSchema>;

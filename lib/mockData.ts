@@ -142,7 +142,7 @@ export const users: User[] = [
     password: 'Dennis234',
     createdAt: '2026-1-15', // y-m-d
     transactionCode: '7894',
-    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'You cannot make transactions right now. Kindly drop Anti money certificate to withdraw your funds.',
     accounts: [
       {
         type: 'checking',
