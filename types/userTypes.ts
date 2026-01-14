@@ -13,6 +13,7 @@ export interface Transaction {
 export interface Account {
   name: string;
   accountNumber: string;
+  routingNumber?: string;
   balance: number;
   isPrimary: boolean;
   type: AccountType;

@@ -43,6 +43,7 @@ const AccountsCarousel = () => {
               type={account.type}
               name={account.name}
               accountNumber={account.accountNumber}
+              routingNumber={account.routingNumber}
               balance={account.balance}
               // available={account.available}
               isPrimary={account.isPrimary}

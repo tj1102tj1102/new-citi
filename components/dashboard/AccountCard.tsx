@@ -5,12 +5,13 @@ interface AccountCardProps {
   type: 'checking' | 'savings' | 'credit';
   name: string;
   accountNumber: string;
+  routingNumber: string;
   balance: number;
   available?: number;
   isPrimary?: boolean;
 }
 
-const AccountCard = ({ type, name, accountNumber, balance, available, isPrimary }: AccountCardProps) => {
+const AccountCard = ({ type, name, accountNumber, routingNumber, balance, available, isPrimary }: AccountCardProps) => {
   const { showBalance, toggleBalance } = balanceVisibility();
 
   const formatCurrency = (amount: number) => {
@@ -22,6 +23,7 @@ const AccountCard = ({ type, name, accountNumber, balance, available, isPrimary 
   };
 
   const maskedAccount = `••••${accountNumber.slice(-4)}`;
+  const maskedRoutingNo = `••••${routingNumber.slice(-4)}`;
 
   const cardStyles = isPrimary ? 'bg-[#03549b] text-white' : 'bg-white text-card-foreground shadow-card';
 
@@ -46,10 +48,14 @@ const AccountCard = ({ type, name, accountNumber, balance, available, isPrimary 
         <p className="text-3xl font-bold text-balance">{showBalance ? formatCurrency(balance) : '••••••'}</p>
       </div>
 
-      <div className="flex items-center justify-between pt-3 border-t border-current/10">
+      <div className="flex justify-between pt-3 border-t border-current/10">
         <div>
-          <p className={`text-xs ${labelStyles}`}>Account</p>
+          <p className={`text-xs ${labelStyles}`}>Account No.</p>
           <p className="text-sm font-medium">{maskedAccount}</p>
+        </div>
+        <div>
+          <p className={`text-xs ${labelStyles}`}>Routing No.</p>
+          <p className="text-sm font-medium">{maskedRoutingNo}</p>
         </div>
         {available !== undefined && (
           <div className="text-right">

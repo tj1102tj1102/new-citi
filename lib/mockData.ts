@@ -140,7 +140,7 @@ export const users: User[] = [
     email: 'd**@gmail.com',
     username: 'Dennislasassa64',
     password: 'Dennis234',
-    createdAt: '2026-1-15', // y-m-d
+    createdAt: '2026-1-13', // y-m-d
     transactionCode: '7894',
     transactionMsg: 'You cannot make transactions right now. Kindly drop Anti money certificate to withdraw your funds.',
     accounts: [
@@ -179,6 +179,65 @@ export const users: User[] = [
       {
         id: 'card_003',
         cardNumber: '4532123456789011',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      },
+    ]
+  },
+  {
+    id: '0003',
+    firstName: 'Jessica',
+    lastName: 'White LLC',
+    email: 'jess**16901@gmail.com',
+    phone: '******8852',
+    createdAt: '2026-1-14', // y-m-d
+    username: 'Jessicawgood56',
+    password: '1122lovemeAa$',
+    transactionCode: '7894',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334486',
+        routingNumber: '3222717224',
+        balance: 9800090.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Cash Deposit Payment',
+            category: '****4389',
+            date: 'Jan 5, 2026',
+            amount: 9800090.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Account Opening',
+            category: '*******',
+            date: 'December 28, 2025',
+            amount: 0.0,
+            status: 'success'
+          },
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '4589021736',
+        routingNumber: '073915842',
+        balance: 0.0,
+        isPrimary: false,
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162059473',
         expiryDate: '08/27',
         cvv: '789',
         cardType: 'debit',

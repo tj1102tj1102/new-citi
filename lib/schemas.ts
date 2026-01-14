@@ -15,6 +15,7 @@ export type Transaction = z.infer<typeof TransactionSchema>;
 export const AccountSchema = z.object({
   name: z.string(),
   accountNumber: z.string(),
+  routingNumber: z.string(),
   balance: z.number(),
   isPrimary: z.boolean().default(false),
   type: z.enum(["checking", "savings"]),
