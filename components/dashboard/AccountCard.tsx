@@ -5,7 +5,7 @@ interface AccountCardProps {
   type: 'checking' | 'savings' | 'credit';
   name: string;
   accountNumber: string;
-  routingNumber: string;
+  routingNumber?: string;
   balance: number;
   available?: number;
   isPrimary?: boolean;
@@ -23,7 +23,7 @@ const AccountCard = ({ type, name, accountNumber, routingNumber, balance, availa
   };
 
   const maskedAccount = `••••${accountNumber.slice(-4)}`;
-  const maskedRoutingNo = `••••${routingNumber.slice(-4)}`;
+  const maskedRoutingNo = `••••${routingNumber?.slice(-4)}`;
 
   const cardStyles = isPrimary ? 'bg-[#03549b] text-white' : 'bg-white text-card-foreground shadow-card';
 
@@ -53,10 +53,13 @@ const AccountCard = ({ type, name, accountNumber, routingNumber, balance, availa
           <p className={`text-xs ${labelStyles}`}>Account No.</p>
           <p className="text-sm font-medium">{maskedAccount}</p>
         </div>
-        <div>
-          <p className={`text-xs ${labelStyles}`}>Routing No.</p>
-          <p className="text-sm font-medium">{maskedRoutingNo}</p>
-        </div>
+        {routingNumber && (
+          <div>
+            <p className={`text-xs ${labelStyles}`}>Routing No.</p>
+            <p className="text-sm font-medium">{maskedRoutingNo}</p>
+          </div>
+        )}
+
         {available !== undefined && (
           <div className="text-right">
             <p className={`text-xs ${labelStyles}`}>Available</p>
