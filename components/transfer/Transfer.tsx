@@ -12,7 +12,11 @@ import { useTransferLogic } from '@/hooks/useTransferLogic';
 import { useRouter } from 'next/navigation';
 import type { Account, Transaction } from '@/types/userTypes';
 
-type AccountWithTransactions = Omit<Account, 'transactions'> & { transactions: Transaction[]; id: string };
+type AccountWithTransactions = Omit<Account, 'transactions'> & { 
+  transactions: Transaction[]; 
+  id: string;
+  routingNumber: string; // Make routingNumber required
+};
 
 const Transfer = () => {
   const userAccounts = useAuthStore(state => state.accounts);
@@ -24,10 +28,11 @@ const Transfer = () => {
   const isAuthenticated = useAuthStore(state => state.isAuthenticated);
   const _hasHydrated = useAuthStore(state => state._hasHydrated);
 
-  // Ensure all accounts have transactions array and id (default to empty if undefined)
+  // Ensure all accounts have transactions array, id, and routingNumber
   const accountsWithTransactions: AccountWithTransactions[] = (userAccounts || []).map((account, idx) => ({
     ...account,
-    id: account.accountNumber, // Use accountNumber as id, or generate one based on index
+    id: account.accountNumber,
+    routingNumber: account.routingNumber || '', // Provide fallback empty string
     transactions: account.transactions || []
   })) as AccountWithTransactions[];
 
