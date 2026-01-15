@@ -141,6 +141,7 @@ export const users: User[] = [
     username: 'Dennislasassa64',
     password: 'Dennis234',
     createdAt: '2026-1-13', // y-m-d
+    updatedAt: '2026-1-15', // y-m-d
     transactionCode: '7894',
     transactionMsg: 'You cannot make transactions right now. Kindly drop Anti money certificate to withdraw your funds.',
     accounts: [
@@ -148,15 +149,22 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876543210',
-        balance: 1000.0,
+        balance: 250000000.0,
         isPrimary: true,
         transactions: [
+          {
+            merchant: 'Transfer from Alice Dan:Inheritance',
+            category: '****7463',
+            date: 'Jan 18, 2026',
+            amount: 100000000.0,
+            status: 'success'
+          },
           {
             merchant: 'Transfer from Alice Dan:Inheritance',
             category: '****4389',
             date: 'Jan 12, 2026',
             amount: 150000000.0,
-            status: 'pending'
+            status: 'success'
           },
           {
             merchant: 'Account Opening',

@@ -33,6 +33,7 @@ export interface Card {
   issuer: string;
   isPrimary: boolean;
   createdAt: string;
+  updatedAt?: string;
 }
 
 export interface User {
@@ -46,6 +47,7 @@ export interface User {
   transactionCode?: string;
   transactionMsg: string;
   createdAt: string;
+  updatedAt?: string;
   accounts: Account[];
   cards: Card[];
 }
