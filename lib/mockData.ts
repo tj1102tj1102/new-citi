@@ -149,7 +149,7 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876543210',
-        balance: 250000000.0,
+        balance: 250001000.0,
         isPrimary: true,
         transactions: [
           {
