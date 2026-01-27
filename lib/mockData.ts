@@ -155,16 +155,14 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
-            merchant:
-              'Transfer from Alice Dan:Inheritance',
+            merchant: 'Transfer from Alice Dan:Inheritance',
             category: '****7463',
             date: 'Jan 18, 2026',
             amount: 100000000.0,
             status: 'success'
           },
           {
-            merchant:
-              'Transfer from Alice Dan:Inheritance',
+            merchant: 'Transfer from Alice Dan:Inheritance',
             category: '****4389',
             date: 'Jan 12, 2026',
             amount: 150000000.0,
@@ -401,6 +399,163 @@ export const users: User[] = [
       {
         id: 'card_003',
         cardNumber: '4927348162059473',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0005',
+    firstName: 'Lawson',
+    lastName: 'Sophie',
+    email: 'l**@gmail.com',
+    createdAt: '2026-1-27', // y-m-d
+    username: 'LawsonSophie56',
+    password: 'SophieLaw04',
+    transactionCode: '7894',
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334872',
+        routingNumber: '1388635724',
+        balance: 1380000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****9377',
+            date: 'Dec 20, 2025',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****4343',
+            date: 'Sep 18, 2025',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****5645',
+            date: 'Jun 22, 2025',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****3256',
+            date: 'Mar 17, 2025',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****1368',
+            date: 'Dec 18, 2024',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****9664',
+            date: 'Sep 20, 2024',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****6329',
+            date: 'Jun 20, 2024',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****9009',
+            date: 'Dec 20, 2023',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****5453',
+            date: 'Sep 25, 2023',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****9011',
+            date: 'Jun 20, 2023',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****4562',
+            date: 'Dec 21, 2022',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****0653',
+            date: 'Sep 20, 2022',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****7464',
+            date: 'Jun 19, 2022',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****9017',
+            date: 'Dec 24, 2021',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****3576',
+            date: 'Sep 20, 2021',
+            amount: 42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance investment deposit',
+            category: '****8466',
+            date: 'Mar 20, 2021',
+            amount: 750000,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '4589021736',
+        routingNumber: '073915842',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162050376',
         expiryDate: '08/27',
         cvv: '789',
         cardType: 'debit',
