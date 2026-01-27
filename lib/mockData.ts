@@ -430,112 +430,112 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****9377',
             date: 'Dec 20, 2025',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****4343',
             date: 'Sep 18, 2025',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****5645',
             date: 'Jun 22, 2025',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****3256',
             date: 'Mar 17, 2025',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****1368',
             date: 'Dec 18, 2024',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****9664',
             date: 'Sep 20, 2024',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****6329',
             date: 'Jun 20, 2024',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****9009',
             date: 'Dec 20, 2023',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****5453',
             date: 'Sep 25, 2023',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****9011',
             date: 'Jun 20, 2023',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****4562',
             date: 'Dec 21, 2022',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****0653',
             date: 'Sep 20, 2022',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****7464',
             date: 'Jun 19, 2022',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****9017',
             date: 'Dec 24, 2021',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Return',
             category: '****3576',
             date: 'Sep 20, 2021',
             amount: 42000,
             status: 'success'
           },
           {
-            merchant: 'Inheritance investment deposit',
+            merchant: 'Inheritance Investment Deposit',
             category: '****8466',
             date: 'Mar 20, 2021',
             amount: 750000,
