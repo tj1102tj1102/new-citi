@@ -579,5 +579,106 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0006',
+    firstName: 'Albert',
+    lastName: 'Patrick',
+    email: 'a**@gmail.com',
+    createdAt: '2026-2-14', // y-m-d
+    username: 'AlbertPatrick56',
+    password: 'Debby83611',
+    transactionCode: '7894',
+    transactionMsg:
+      'Dear customer, you transfer can not be processed right now until you pay a token fees of $10,000 before your transfer can be proceed',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334872',
+        routingNumber: '1388635724',
+        balance: 4000000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****9377',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****3545',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****6448',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****2443',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****4784',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****7583',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****5775',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+          {
+            merchant: 'Inheritance Investment Return',
+            category: '****5288',
+            date: 'Feb 13, 2026',
+            amount: 500000,
+            status: 'success'
+          },
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '4589021736',
+        routingNumber: '073915842',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162050376',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
