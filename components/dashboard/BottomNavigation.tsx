@@ -6,7 +6,7 @@ import {
   Home,
   CreditCard,
   ArrowLeftRight,
-  BarChart3,
+  History,
   User
 } from "lucide-react";
 
@@ -14,7 +14,7 @@ const navItems = [
   { icon: Home, label: "Home", path: "/" },
   { icon: CreditCard, label: "Cards", path: "/cards" },
   { icon: ArrowLeftRight, label: "Transfer", path: "/transfer" },
-  // { icon: BarChart3, label: "Insights", path: "/insights" },
+  { icon: History, label: "History", path: "/transactions" },
   { icon: User, label: "Profile", path: "/profile" },
 ];
 

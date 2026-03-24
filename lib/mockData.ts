@@ -11,8 +11,7 @@ export const users: User[] = [
     email: 'sarah.johnson@email.com',
     phone: '(555) 123-4567',
     transactionCode: '6363',
-    transactionMsg:
-      "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
+    transactionMsg: "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
     createdAt: '2023-01-15',
     accounts: [
       {
@@ -144,8 +143,7 @@ export const users: User[] = [
     createdAt: '2026-1-13', // y-m-d
     updatedAt: '2026-1-29', // y-m-d
     transactionCode: '7894',
-    transactionMsg:
-      'You cannot make transactions right now. Before you can make any transactions you have to deposit the sum of $2500 into your account.',
+    transactionMsg: 'You cannot make transactions right now. Before you can make any transactions you have to deposit the sum of $2500 into your account.',
     accounts: [
       {
         type: 'checking',
@@ -223,8 +221,7 @@ export const users: User[] = [
     username: 'Jessicawgood56',
     password: '1122lovemeAa$',
     transactionCode: '7894',
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -282,8 +279,7 @@ export const users: User[] = [
     username: 'ChrisHug56',
     password: 'Chris1204',
     transactionCode: '7894',
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -432,8 +428,7 @@ export const users: User[] = [
     username: 'LawsonSophie56',
     password: 'SophieLaw04',
     transactionCode: '7894',
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -589,8 +584,7 @@ export const users: User[] = [
     username: 'AlbertPatrick56',
     password: 'Debby83611',
     transactionCode: '7894',
-    transactionMsg:
-      'Dear customer, you transfer can not be processed right now until you pay a token fees of $10,000 before your transfer can be proceed',
+    transactionMsg: 'Dear customer, you transfer can not be processed right now until you pay a token fees of $10,000 before your transfer can be proceed',
     accounts: [
       {
         type: 'checking',
@@ -655,7 +649,7 @@ export const users: User[] = [
             date: 'Feb 13, 2026',
             amount: 500000,
             status: 'success'
-          },
+          }
         ]
       },
       {
@@ -663,6 +657,281 @@ export const users: User[] = [
         name: 'High Yield Savings',
         accountNumber: '4589021736',
         routingNumber: '073915842',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162050376',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0007',
+    firstName: 'J.',
+    lastName: 'ANTIQUES',
+    email: 'a**@gmail.com',
+    createdAt: '2026-3-24', // y-m-d
+    username: 'Jantiques25',
+    password: 'Jantiques41',
+    transactionCode: '7894',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334872',
+        routingNumber: '1388635724',
+        balance: 850000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from BluePeak Ventures',
+            category: '****4921',
+            date: 'Mar 03, 2026',
+            amount: 92000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to SilverLine Solutions',
+            category: '****8374',
+            date: 'Feb 27, 2026',
+            amount: 3000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from ApexCore Technologies',
+            category: '****1847',
+            date: 'Feb 15, 2026',
+            amount: 47000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to GreenField Enterprises',
+            category: '****9263',
+            date: 'Feb 10, 2026',
+            amount: -5000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to NovaBridge Group',
+            category: '****3746',
+            date: 'Feb 09, 2026',
+            amount: -1000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to PrimeAxis Ltd',
+            category: '****6582',
+            date: 'Feb 05, 2026',
+            amount: -7650.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from ZenithWorks',
+            category: '****2371',
+            date: 'Jan 30, 2026',
+            amount: 53000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from UrbanHive Co.',
+            category: '****5918',
+            date: 'Jan 27, 2026',
+            amount: 28000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from BrightPath Consulting',
+            category: '****4832',
+            date: 'Jan 25, 2026',
+            amount: 36000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from CloudSphere Systems',
+            category: '****7294',
+            date: 'Jan 20, 2026',
+            amount: 61000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from NextWave Innovations',
+            category: '****3619',
+            date: 'Jan 10, 2026',
+            amount: 24000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from GoldenEdge Services',
+            category: '****8492',
+            date: 'Jan 01, 2026',
+            amount: 58000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from SwiftCore Logistics',
+            category: '****4781',
+            date: 'Dec 29, 2025',
+            amount: 26000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from IronClad Industries',
+            category: '****1397',
+            date: 'Dec 28, 2025',
+            amount: 64000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to ElevateHub',
+            category: '****8263',
+            date: 'Dec 25, 2025',
+            amount: -1400.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from PureStream Solutions',
+            category: '****2947',
+            date: 'Dec 20, 2025',
+            amount: 49000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to OptimaLink Group',
+            category: '****6352',
+            date: 'Dec 18, 2025',
+            amount: -2500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to FusionPoint Tech',
+            category: '****4812',
+            date: 'Dec 17, 2025',
+            amount: -3500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from CrestView Holdings',
+            category: '****7531',
+            date: 'Dec 16, 2025',
+            amount: 52000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to VelocityWorks',
+            category: '****3972',
+            date: 'Dec 15, 2025',
+            amount: -2000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from ClearVision Consulting',
+            category: '****2684',
+            date: 'Dec 12, 2025',
+            amount: 55000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from AlphaBridge Ventures',
+            category: '****9153',
+            date: 'Dec 10, 2025',
+            amount: 43000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from SummitLine Group',
+            category: '****4719',
+            date: 'Dec 09, 2025',
+            amount: 62000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from TerraNova Solutions',
+            category: '****8372',
+            date: 'Dec 05, 2025',
+            amount: 41000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Skyward Industries',
+            category: '****6293',
+            date: 'Nov 30, 2025',
+            amount: 57000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from CoreCraft Systems',
+            category: '****1948',
+            date: 'Nov 29, 2025',
+            amount: 46000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to PulsePoint Enterprises',
+            category: '****4826',
+            date: 'Nov 25, 2025',
+            amount: -3850.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to HorizonLink Co.',
+            category: '****7394',
+            date: 'Nov 20, 2025',
+            amount: -750.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to IntelliSource Ltd',
+            category: '****8261',
+            date: 'Nov 18, 2025',
+            amount: -2840.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from BeaconPath Group',
+            category: '****3674',
+            date: 'Nov 08, 2025',
+            amount: 54000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from VertexFlow Solutions',
+            category: '****4918',
+            date: 'Oct 29, 2025',
+            amount: 27000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from UnityWorks Global',
+            category: '****2379',
+            date: 'Oct 28, 2025',
+            amount: 60000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from OrbitEdge Technologies',
+            category: '****6823',
+            date: 'Oct 25, 2025',
+            amount: 48000.0,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '42008336783',
+        routingNumber: '1388639646',
         balance: 0.0,
         isPrimary: false
       }
