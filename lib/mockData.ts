@@ -695,17 +695,24 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
-            merchant: 'Transfer from BluePeak Ventures',
+            merchant: 'Transfer from OrbitEdge Technologies',
+            category: '****4563',
+            date: 'Mar 24, 2026',
+            amount: 850000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to BluePeak Ventures',
             category: '****4921',
             date: 'Mar 03, 2026',
-            amount: 92000.0,
+            amount: -92000.0,
             status: 'success'
           },
           {
             merchant: 'Transfer to SilverLine Solutions',
             category: '****8374',
             date: 'Feb 27, 2026',
-            amount: 3000.0,
+            amount: -3000.0,
             status: 'success'
           },
           {
@@ -744,10 +751,10 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Transfer from UrbanHive Co.',
+            merchant: 'Transfer to UrbanHive Co.',
             category: '****5918',
             date: 'Jan 27, 2026',
-            amount: 28000.0,
+            amount: -28000.0,
             status: 'success'
           },
           {
@@ -758,17 +765,17 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Transfer from CloudSphere Systems',
+            merchant: 'Transfer to CloudSphere Systems',
             category: '****7294',
             date: 'Jan 20, 2026',
-            amount: 61000.0,
+            amount: -61000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from NextWave Innovations',
+            merchant: 'Transfer to NextWave Innovations',
             category: '****3619',
             date: 'Jan 10, 2026',
-            amount: 24000.0,
+            amount: -24000.0,
             status: 'success'
           },
           {
@@ -779,10 +786,10 @@ export const users: User[] = [
             status: 'success'
           },
           {
-            merchant: 'Transfer from SwiftCore Logistics',
+            merchant: 'Transfer to SwiftCore Logistics',
             category: '****4781',
             date: 'Dec 29, 2025',
-            amount: 26000.0,
+            amount: -26000.0,
             status: 'success'
           },
           {
@@ -792,139 +799,6 @@ export const users: User[] = [
             amount: 64000.0,
             status: 'success'
           },
-          {
-            merchant: 'Transfer to ElevateHub',
-            category: '****8263',
-            date: 'Dec 25, 2025',
-            amount: -1400.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from PureStream Solutions',
-            category: '****2947',
-            date: 'Dec 20, 2025',
-            amount: 49000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to OptimaLink Group',
-            category: '****6352',
-            date: 'Dec 18, 2025',
-            amount: -2500.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to FusionPoint Tech',
-            category: '****4812',
-            date: 'Dec 17, 2025',
-            amount: -3500.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from CrestView Holdings',
-            category: '****7531',
-            date: 'Dec 16, 2025',
-            amount: 52000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to VelocityWorks',
-            category: '****3972',
-            date: 'Dec 15, 2025',
-            amount: -2000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from ClearVision Consulting',
-            category: '****2684',
-            date: 'Dec 12, 2025',
-            amount: 55000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from AlphaBridge Ventures',
-            category: '****9153',
-            date: 'Dec 10, 2025',
-            amount: 43000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from SummitLine Group',
-            category: '****4719',
-            date: 'Dec 09, 2025',
-            amount: 62000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from TerraNova Solutions',
-            category: '****8372',
-            date: 'Dec 05, 2025',
-            amount: 41000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from Skyward Industries',
-            category: '****6293',
-            date: 'Nov 30, 2025',
-            amount: 57000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from CoreCraft Systems',
-            category: '****1948',
-            date: 'Nov 29, 2025',
-            amount: 46000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to PulsePoint Enterprises',
-            category: '****4826',
-            date: 'Nov 25, 2025',
-            amount: -3850.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to HorizonLink Co.',
-            category: '****7394',
-            date: 'Nov 20, 2025',
-            amount: -750.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer to IntelliSource Ltd',
-            category: '****8261',
-            date: 'Nov 18, 2025',
-            amount: -2840.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from BeaconPath Group',
-            category: '****3674',
-            date: 'Nov 08, 2025',
-            amount: 54000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from VertexFlow Solutions',
-            category: '****4918',
-            date: 'Oct 29, 2025',
-            amount: 27000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from UnityWorks Global',
-            category: '****2379',
-            date: 'Oct 28, 2025',
-            amount: 60000.0,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from OrbitEdge Technologies',
-            category: '****6823',
-            date: 'Oct 25, 2025',
-            amount: 48000.0,
-            status: 'success'
-          }
         ]
       },
       {
