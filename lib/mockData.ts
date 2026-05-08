@@ -823,5 +823,56 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0008',
+    firstName: 'Ronald',
+    lastName: 'Ura',
+    email: 'r**@gmail.com',
+    createdAt: '2026-5-8', // y-m-d
+    username: 'Ronaldura25',
+    password: 'RonUra1$',
+    transactionCode: '7894',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334872',
+        routingNumber: '1388635724',
+        balance: 182000000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Wire Transfer~NovaBridge Group',
+            category: '****4563',
+            date: 'Mar 24, 2026',
+            amount: 182000000.0,
+            status: 'success'
+          },
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '42008336783',
+        routingNumber: '1388639646',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162050376',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
