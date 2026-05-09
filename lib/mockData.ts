@@ -798,7 +798,7 @@ export const users: User[] = [
             date: 'Dec 28, 2025',
             amount: 64000.0,
             status: 'success'
-          },
+          }
         ]
       },
       {
@@ -849,7 +849,101 @@ export const users: User[] = [
             date: 'Mar 24, 2026',
             amount: 182000000.0,
             status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '42008336783',
+        routingNumber: '1388639646',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4927348162050376',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0009',
+    firstName: 'Bethany',
+    lastName: 'Morgan Guerrera',
+    email: 'bet**696@gmail.com',
+    phone: '+1778851****',
+    createdAt: '2026-5-9', // y-m-d
+    username: 'bethanymorgan696',
+    password: 'Barret1993',
+    transactionCode: '1920',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '42008334872',
+        routingNumber: '1388635724',
+        balance: 10000000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Ref#589857668...',
+            category: '****1430',
+            date: 'Sep 19, 2006',
+            amount: 650000.0,
+            status: 'success'
           },
+          {
+            merchant: 'Wire Transfer',
+            category: '****3292',
+            date: 'Jul 6, 2006',
+            amount: 950000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Direct Deposit',
+            category: '****2780',
+            date: 'May 22, 2006',
+            amount: 2900000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Bank Transfer',
+            category: '****8607',
+            date: 'Mar 16, 2006',
+            amount: 4300000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire Transfer',
+            category: '****0857',
+            date: 'Mar 9, 2006',
+            amount: 600000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Tax Fund Recovery',
+            category: '****7394',
+            date: 'Dec 5, 2005',
+            amount: 20000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Direct Deposit',
+            category: '****9815',
+            date: 'Nov 17, 2005',
+            amount: 580000.0,
+            status: 'success'
+          }
         ]
       },
       {
