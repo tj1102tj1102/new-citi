@@ -881,7 +881,7 @@ export const users: User[] = [
     lastName: 'Morgan Guerrera',
     email: 'bet**696@gmail.com',
     phone: '+1778851****',
-    createdAt: '2026-5-9', // y-m-d
+    createdAt: '2026-5-10', // y-m-d
     username: 'bethanymorgan696',
     password: 'Barret1993',
     transactionCode: '1920',
@@ -895,90 +895,6 @@ export const users: User[] = [
         balance: 10000000.0,
         isPrimary: true,
         transactions: [
-          {
-            merchant: 'Transfer from Alistair Vance',
-            category: '****9377',
-            date: 'Dec 20, 2016',
-            amount: 540000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Arthur Sterling',
-            category: '****4343',
-            date: 'Sep 18, 2016',
-            amount: 620000,
-            status: 'pending'
-          },
-           {
-            merchant: 'Transfer from Dominic Mercer',
-            category: '****9543',
-            date: 'Aug 25, 2016',
-            amount: 370000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Victor Kensington',
-            category: '****5645',
-            date: 'Jun 22, 2016',
-            amount: 42000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Seraphina Valois',
-            category: '****3256',
-            date: 'Mar 17, 2016',
-            amount: 490000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Lawrence Whittaker',
-            category: '****9009',
-            date: 'Dec 29, 2015',
-            amount: 42000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Maxwell Thorne',
-            category: '****1368',
-            date: 'Nov 18, 2015',
-            amount: 570000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Gideon Rhodes',
-            category: '****9664',
-            date: 'Sep 20, 2015',
-            amount: 210000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Clarissa Meade',
-            category: '****6329',
-            date: 'Jun 20, 2015',
-            amount: 490000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Imogen Carlyle',
-            category: '****9017',
-            date: 'Nov 14, 2014',
-            amount: 56000,
-            status: 'pending'
-          },
-          {
-            merchant: 'Transfer from Octavia Spencer',
-            category: '****3576',
-            date: 'Sep 16, 2014',
-            amount: 340700,
-            status: 'success'
-          },
-          {
-            merchant: 'Transfer from Nathaniel Cross',
-            category: '****2014',
-            date: 'Mar 20, 2014',
-            amount: 750000,
-            status: 'success'
-          },
           {
             merchant: 'Ref#589857668...',
             category: '****1430',
@@ -1026,6 +942,90 @@ export const users: User[] = [
             category: '****9815',
             date: 'Nov 17, 2005',
             amount: 580000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Alistair Vance',
+            category: '****9377',
+            date: 'Dec 20, 2003',
+            amount: -540000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Arthur Sterling',
+            category: '****4343',
+            date: 'Sep 18, 2003',
+            amount: -620000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Dominic Mercer',
+            category: '****2003',
+            date: 'Aug 25, 2003',
+            amount: -370000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Victor Kensington',
+            category: '****5645',
+            date: 'Jun 22, 2003',
+            amount: -42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Seraphina Valois',
+            category: '****3256',
+            date: 'Mar 17, 2003',
+            amount: -490000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Lawrence Whittaker',
+            category: '****9009',
+            date: 'Dec 29, 2002',
+            amount: -42000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Maxwell Thorne',
+            category: '****1368',
+            date: 'Nov 18, 2002',
+            amount: -570000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Gideon Rhodes',
+            category: '****9664',
+            date: 'Sep 20, 2002',
+            amount: -210000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Clarissa Meade',
+            category: '****6329',
+            date: 'Jun 20, 2002',
+            amount: -490000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Imogen Carlyle',
+            category: '****9017',
+            date: 'Nov 14, 2001',
+            amount: -56000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Octavia Spencer',
+            category: '****3576',
+            date: 'Sep 16, 2001',
+            amount: -340700,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Nathaniel Cross',
+            category: '****3773',
+            date: 'Mar 20, 2001',
+            amount: -750000,
             status: 'success'
           }
         ]
